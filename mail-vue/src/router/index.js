@@ -56,7 +56,7 @@ const routes = [
             name: 'doc',
             component: () => import('@/views/doc/index.vue'),
             meta: {
-                title: 'User Guide',
+                title: '使用文档',
                 name: 'doc',
                 menu: true
             }
