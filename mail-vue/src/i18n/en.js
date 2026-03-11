@@ -284,7 +284,7 @@ const en = {
     noRecipientDesc: 'Emails can be received even without a registered email address',
     preview: 'Preview',
     help: 'Help',
-    document: 'Document',
+    document: 'User Guide',
     clearEmail: 'Email Cleanup',
     sendEmailAddress: 'From Email',
     toEmail: 'To Email',
