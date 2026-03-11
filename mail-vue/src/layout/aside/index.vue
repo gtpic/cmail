@@ -64,6 +64,11 @@
           <Icon icon="eos-icons:system-ok-outlined" width="18" height="18" style="margin-left: 2px" />
           <span class="menu-name" style="margin-left: 22px">{{$t('SystemSettings')}}</span>
         </el-menu-item>
+        <el-menu-item @click="router.push({name: 'doc'})" index="doc"
+                      :class="route.meta.name === 'doc' ? 'choose-item' : ''">
+          <Icon icon="solar:document-text-bold-duotone" width="19" height="19" style="margin-left: 2px" />
+          <span class="menu-name" style="margin-left: 22px">使用文档</span>
+        </el-menu-item>
       </el-menu>
     </div>
   </el-scrollbar>
