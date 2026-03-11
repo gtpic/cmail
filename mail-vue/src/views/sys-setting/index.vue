@@ -368,7 +368,7 @@
               </div>
               <div class="concerning-item">
                 <span>{{ $t('help') }} : </span>
-                <el-button @click="jump('https://doc.skymail.ink')">
+                <el-button @click="jump('/doc')">
                   {{ t('document') }}
                   <template #icon>
                     <Icon color="#79D6B5" icon="fluent-color:document-32" width="18" height="18"/>
